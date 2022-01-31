@@ -1,0 +1,86 @@
+
+
+#calculadora{
+    background-color: rgba(0, 0, 0, 0.795);
+    display:inline-block;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px 10px 0px;
+    
+}
+
+#botoes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+#res {
+    text-align: end;
+    background-color: rgb(247, 247, 247);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    color: black;
+    margin: 0px 0px 20px;
+    width: 250px;
+    padding: 4px;
+    font-weight: bolder;
+    border: 0px;
+    
+}
+
+#guardares{
+    text-align: end;
+    background-color: rgb(247, 247, 247);
+    font-size: small;
+    font-weight: bold;
+    padding: 4px;
+    width: 250px;
+    border: 0px;
+}
+
+.botao{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.904);
+    border-radius: 2px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.404);
+    padding: 10px;
+    border: 0px;
+    font-weight: bolder;
+    font-size: medium;
+}
+
+.botao:hover{
+    cursor:pointer;
+}
+
+.botaozao{
+    grid-column-start: 1;
+    grid-column-end:3;
+    grid-row-start: 5;
+    grid-row-end: 5;
+}
+
+.botaoc{
+    background-color: rgb(201, 24, 24);
+
+}
+
+
+.botaoigual{
+    grid-column-start: 4;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    background-color: rgb(49, 108, 218);
+}
+
+.botaoponto{
+    grid-column-start: 3;
+    grid-row-end: 6;
+}
+
+.imgapaga{
+    background-image: url(imagem/pngwing.com2.png   );
+    background-repeat: no-repeat;
+    background-position: 17px 7px;
+}

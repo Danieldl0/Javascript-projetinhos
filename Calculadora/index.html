@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id = "calculadora">
+        <input id ="guardares" type="text" name="guarda_resultado" value ="" disabled ><br/>
+        <input id ="res" type="text" name="resultado" value ="" disabled ><br/>
+
+        <div id = "botoes">
+            <input type="button" name="butao1" class="botao botaoc" value="C" onclick="limpar()">
+            <input type="button" name="butao1" class="botao" value="-" onclick="addres('-')">
+            <input type="button" name="butao1" class="botao" value="+" onclick="addres('+')">
+            <input type="button" name="butao1" class="botao botaoapaga imgapaga" value="" onclick="apagar()">
+            
+            <input type="button" name="butao1" class="botao" value="7" onclick="addres(7)">
+            <input type="button" name="butao1" class="botao" value="8" onclick="addres(8)">
+            <input type="button" name="butao1" class="botao" value="9" onclick="addres(9)">
+            <input type="button" name="butao1" class="botao" value="/" onclick="addres('/')">
+
+            <input type="button" name="butao1" class="botao" value="4" onclick="addres(4)">
+            <input type="button" name="butao1" class="botao" value="5" onclick="addres(5)">
+            <input type="button" name="butao1" class="botao" value="6" onclick="addres(6)">
+            <input type="button" name="butao1" class="botao" value="x" onclick="addres('*')">
+
+            <input type="button" name="butao1" class="botao" value="1" onclick="addres(1)">
+            <input type="button" name="butao1" class="botao" value="2" onclick="addres(2)">
+            <input type="button" name="butao1" class="botao" value="3" onclick="addres(3)">
+            <input type="button" name="butao1" class="botao botaoigual" value="=" onclick="mostrares()"><br/>
+            <input type="button" name="butao1" class="botao botaozao" value="0" onclick="addres(0)">
+            <input type="button" name="butao1" class="botao botaoponto" value="," onclick="addres('.')">
+        </div>
+
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
